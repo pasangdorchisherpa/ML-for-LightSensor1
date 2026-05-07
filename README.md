@@ -13,12 +13,16 @@ Finally, I convert that prediction into a valve command using a simple rule — 
 
 _________________
 
-  Raw light readings (32 samples)
+Raw light readings (32 samples)
+
         ↓
-  Scale the data (÷ 1.2)
+Scale the data (÷ 1.2)
+
         ↓
-  Neural Network (32 → 64 → 1)
+Neural Network (32 → 64 → 1)
+        
         ↓
-  Predicted liquid level [0 to 1]
+Predicted liquid level [0 to 1]
+        
         ↓
-  Valve command (1 - level)
+Valve command (1 - level)
